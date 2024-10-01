@@ -43,6 +43,7 @@ h1 {
 h2 {
     font-weight: normal;
     margin-bottom: 15px;
+    margin-top: 0;
 }
 
 h3 {
@@ -119,6 +120,7 @@ h2,
 .imagem-igual {
     width: 450px;
 }
+
 
 /*EStilização dos links dentro dos itens de lista da ultima secao*/
 .link-azul-branco{
