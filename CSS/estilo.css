@@ -66,6 +66,10 @@ h2,
     font-weight: bold;
 }
 
+.negrito-amarelo{
+    color: #fff81b;
+}
+
 /*classes dos principais parágrafos utilizados nas divs*/
 
 .paragrafo-largo {
@@ -80,6 +84,12 @@ h2,
     margin: 0 auto;
     font-size: 22px;
     line-height: 42px;
+}
+
+.fundo-escuro{
+    background-color: #1d1d1d;
+    padding: 15px;
+    margin: 30px auto;
 }
 
 /*Estilização das divs destacadas*/
