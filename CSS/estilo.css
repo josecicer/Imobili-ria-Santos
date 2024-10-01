@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma;
+}
+
+/*Fase de estilização de todas as divs com a classe secao*/
+.secao {
+    padding: 30px;
+    text-align: center;
+}
+
+/*estilização da div com classe cabecalho e dos elementos presentes nela*/
+.cabecalho {
+    background-color: #afddfb;
+}
+
+.cabecalho img {
+    width: 150px;
+}
+
+.cabecalho a {
+    color: #1d1d1d;
+    font-size: 18px;
+    margin: 0 10px;
+    text-decoration: none;
+    border-bottom: 2px solid #1d1d1d;
+}
+
+/*Estilização geral das tags principais*/
+
+p {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+h1 {
+    font-size: 28px;
+    color: #1d1d1d;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 28px;
+    line-height: 42px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+/*Tags com estilizações semelhantes com outras classes/casses com estilos semelhantes com outras classes*/
+
+h2,
+.negrito-azul,
+.link-azul-branco,
+#corretores h3 {
+    color: #1c81c0;
+}
+
+.negrito-azul,
+.negrito-amarelo {
+    font-weight: bold;
+}
+
+/*classes dos principais parágrafos utilizados nas divs*/
+
+.paragrafo-largo {
+    text-align: justify;
+    font-size: 18px;
+    width: 980px;
+    margin: 15px auto;
+}
+
+.paragrafo-alto {
+    width: 700px;
+    margin: 0 auto;
+    font-size: 22px;
+    line-height: 42px;
+}
+
+/*Estilização das divs destacadas*/
+.destaque {
+    background-color: #1d80c1;
+    color: #ffffff;
+}
+
+/*Estilização das listas das seções*/
+#servicos ul {
+    width: 135px;
+    margin: 40px auto;
+    font-size: 22px;
+}
+
+#contato ul {
+    margin: 40px auto;
+}
+
+#contato ul li {
+    margin-top: 15px;
+    font-size: 18px;
+    text-align: center;
+}
+
+/*estilização das imgs das seções*/
+.imagem-igual {
+    width: 450px;
+}
+
+/*EStilização dos links dentro dos itens de lista da ultima secao*/
+.link-azul-branco{
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #1d1d1d;
+    padding: 2px 5px;
+}
